@@ -1,0 +1,640 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    background-color: rgb(20, 19, 19);
+    float: left;
+
+}
+
+.start {
+    color: white;
+    float: left;
+    padding: 30px;
+    padding-left: 250px;
+    font-size: 28px;
+    text-transform: capitalize;
+}
+
+
+li {
+    display: inline;
+    float: left;
+    list-style: none;
+    color: white;
+    padding: 30px;
+    font-size: 24px;
+    text-transform: capitalize;
+}
+
+.list {
+    float: right;
+    padding-right: 250px;
+}
+
+
+li:hover {
+    background-color: gray;
+    color: blue;
+}
+
+section {
+    float: left;
+}
+
+
+
+
+
+.box1 {
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("images/IMG_20221222_085714_707.jpg");
+    background-size: cover;
+    padding: 300px;
+    clear: left;
+    position: relative;
+    height: 600px;
+
+}
+
+.box1 h1 {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+
+.box1 span {
+    color: blue;
+}
+
+.box1 p:nth-of-type(1) {
+    font-size: 22px;
+    text-align: center;
+}
+
+.box1 bottom {
+    text-align: center;
+    font-size: 18px;
+    width: 150px;
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%, 0);
+}
+
+.box2 {
+    width: 100%;
+    height: 400px;
+    float: left;
+
+}
+
+.leftbox {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.leftbox img {
+    width: 100%;
+    height: 100%;
+}
+
+.rightbox {
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-color: rgb(51, 51, 51);
+    position: relative;
+}
+
+.rightbox p {
+    color: white;
+    text-align: center;
+}
+
+.rightbox span {
+    color: blue;
+}
+
+
+.rightbox p:nth-of-type(1) {
+    font-size: 30px;
+    margin-top: 120px;
+    text-align: center;
+}
+
+.rightbox p:nth-of-type(2) {
+    text-align: center;
+    padding: 0 100px;
+}
+
+.rightbox bottom {
+    width: 100px;
+    color: black;
+    height: 20px;
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%, 0);
+
+}
+
+.box3 {
+    width: 100%;
+    height: 250px;
+    float: left;
+}
+
+.playstation {
+    width: 33%;
+    height: 100%;
+    background-color: white;
+    float: left;
+    position: relative;
+
+}
+
+.playstation img {
+    width: 10%;
+    height: 25%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-top: 60px;
+}
+
+.playstation p:nth-of-type(1) {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.playstation p:last-child {
+    text-align: center;
+}
+
+
+.xbox {
+    width: 34%;
+    height: 100%;
+    background-color: rgb(31, 143, 253);
+    float: left;
+    position: relative;
+}
+
+.xbox img {
+    width: 10%;
+    height: 25%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-top: 60px;
+}
+
+.xbox p:nth-of-type(1) {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.xbox p:last-child {
+    text-align: center;
+}
+
+
+
+
+
+.steam {
+    width: 33%;
+    height: 100%;
+    background-color: white;
+    float: left;
+    position: relative;
+}
+
+.steam img {
+    width: 10%;
+    height: 25%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-top: 60px;
+}
+
+.steam p:nth-of-type(1) {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.steam p:last-child {
+    text-align: center;
+}
+
+
+
+
+footer {
+    clear: left;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(51, 51, 51);
+    position: relative;
+
+
+}
+
+footer h2 {
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: capitalize;
+}
+
+@media(max-width:576px) {
+
+    header {
+        width: 100%;
+    }
+
+    .start {
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+
+    li {
+        width: 100%;
+        padding: 0;
+    }
+
+    .list {
+        width: 100%;
+        padding: 0;
+    }
+
+    section {
+        width: 100%;
+        height: 1500;
+
+    }
+
+    .box1 {
+        width: 100%;
+        padding: 50px;
+        position: relative;
+        height: 300px;
+    }
+
+    .box1 h1 {
+        width: 100%;
+        font-size: 40px;
+    }
+
+    .box1 p:nth-of-type(1) {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .box1 bottom {
+        position: absolute;
+        top: 80%;
+    }
+
+    .box2 {
+        width: 100%;
+        position: relative;
+        height: 600px;
+    }
+
+    .leftbox {
+        width: 100%;
+        height: 300px;
+
+    }
+
+    .rightbox {
+        width: 100%;
+
+        height: 300px;
+    }
+
+    .rightbox p:nth-of-type(1) {
+        font-size: 25px;
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .rightbox bottom {
+        width: 100px;
+        color: black;
+        height: 20px;
+        background-color: white;
+        position: absolute;
+        left: 50%;
+        top: 70%;
+        text-align: center;
+
+
+    }
+
+    .box3 {
+        width: 100%;
+        height: 600px;
+        font-size: 18px;
+    }
+
+    .playstation {
+        width: 100%;
+        height: 200px;
+    }
+
+
+    .xbox {
+        width: 100%;
+        height: 200px;
+    }
+
+    .steam {
+        width: 100%;
+        height: 200px;
+    }
+
+    footer {
+        width: 100%;
+    }
+
+
+
+}
+
+@media (min-width:576px) and (max-width:768px) {
+    header {
+        width: 100%;
+    }
+
+    .start {
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+
+    li {
+        width: 100%;
+        padding: 0;
+    }
+
+    .list {
+        width: 100%;
+        padding: 0;
+    }
+
+    section {
+        width: 100%;
+        height: 1800px;
+
+    }
+
+    .box1 {
+        width: 100%;
+        padding: 50px;
+        position: relative;
+        height: 300px;
+    }
+
+    .box1 h1 {
+        width: 100%;
+        font-size: 45px;
+    }
+
+    .box1 p:nth-of-type(1) {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .box1 bottom {
+        position: absolute;
+        top: 60%;
+        left: 50%;
+    }
+
+    .box2 {
+        width: 100%;
+        position: relative;
+        height: 600px;
+    }
+
+    .leftbox {
+        width: 100%;
+        height: 300px;
+
+    }
+
+    .rightbox {
+        width: 100%;
+
+        height: 300px;
+    }
+
+    .rightbox p:nth-of-type(1) {
+        font-size: 28px;
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .rightbox bottom {
+        width: 100px;
+        color: black;
+        height: 20px;
+        background-color: white;
+        position: absolute;
+        left: 50%;
+        top: 70%;
+        text-align: center;
+
+
+    }
+
+    .box3 {
+        width: 100%;
+        height: 900px;
+        font-size: 20px;
+    }
+
+    .playstation {
+        width: 100%;
+        height: 300px;
+    }
+
+    .playstation p:nth-of-type(1) {
+        margin-top: 150px;
+    }
+
+    .xbox {
+        width: 100%;
+        height: 300px;
+    }
+
+    .xbox p:nth-of-type(1) {
+        margin-top: 150px;
+    }
+
+    .steam {
+        width: 100%;
+        height: 300px;
+    }
+
+    .steam p:nth-of-type(1) {
+        margin-top: 150px;
+    }
+
+
+    footer {
+        width: 100%;
+    }
+
+}
+
+@media (min-width:768px) and (max-width:1200px) {
+    header {
+        width: 100%;
+    }
+
+    .start {
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+
+    li {
+        width: 100%;
+        padding: 0;
+    }
+
+    .list {
+        width: 100%;
+        padding: 0;
+    }
+
+    section {
+        width: 100%;
+        height: 2200px;
+
+    }
+
+    .box1 {
+        width: 100%;
+        padding: 50px;
+        position: relative;
+        height: 500px;
+        padding: 0;
+    }
+
+    .box1 h1 {
+        width: 100%;
+        font-size: 50px;
+        position: absolute;
+        top: 20%;
+        
+    }
+
+    .box1 p:nth-of-type(1) {
+        text-align: center;
+        font-size: 18px;
+        position: absolute;
+        top: 40%;
+    }
+
+    .box1 bottom {
+        position: absolute;
+        top: 60%;
+        left: 50%;
+    }
+
+    .box2 {
+        width: 100%;
+        position: relative;
+        height: 800px;
+    }
+
+    .leftbox {
+        width: 100%;
+        height: 500px;
+
+    }
+
+    .rightbox {
+        width: 100%;
+
+        height: 300px;
+    }
+
+    .rightbox p:nth-of-type(1) {
+        font-size: 28px;
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .rightbox bottom {
+        width: 100px;
+        color: black;
+        height: 20px;
+        background-color: white;
+        position: absolute;
+        left: 50%;
+        top: 60%;
+        text-align: center;
+
+
+    }
+
+    .box3 {
+        width: 100%;
+        height: 900px;
+        font-size: 20px;
+    }
+
+    .playstation {
+        width: 100%;
+        height: 300px;
+    }
+
+    .playstation p:nth-of-type(1) {
+        margin-top: 150px;
+    }
+
+    .xbox {
+        width: 100%;
+        height: 300px;
+    }
+
+    .xbox p:nth-of-type(1) {
+        margin-top: 150px;
+    }
+
+    .steam {
+        width: 100%;
+        height: 300px;
+    }
+
+    .steam p:nth-of-type(1) {
+        margin-top: 150px;
+    }
+
+
+    footer {
+        width: 100%;
+    }
+
+}
