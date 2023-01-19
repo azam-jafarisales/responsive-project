@@ -76,7 +76,7 @@ section {
     text-align: center;
 }
 
-.box1 bottom {
+.box1 button {
     text-align: center;
     font-size: 18px;
     width: 150px;
@@ -134,7 +134,7 @@ section {
     padding: 0 100px;
 }
 
-.rightbox bottom {
+.rightbox button {
     width: 100px;
     color: black;
     height: 20px;
@@ -307,7 +307,7 @@ footer h2 {
         font-size: 16px;
     }
 
-    .box1 bottom {
+    .box1 button {
         position: absolute;
         top: 80%;
     }
@@ -423,7 +423,7 @@ footer h2 {
         font-size: 18px;
     }
 
-    .box1 bottom {
+    .box1 button {
         position: absolute;
         top: 60%;
         left: 50%;
@@ -556,7 +556,7 @@ footer h2 {
         top: 40%;
     }
 
-    .box1 bottom {
+    .box1 button {
         position: absolute;
         top: 60%;
         left: 50%;
@@ -586,7 +586,7 @@ footer h2 {
         text-align: center;
     }
 
-    .rightbox bottom {
+    .rightbox button {
         width: 100px;
         color: black;
         height: 20px;
